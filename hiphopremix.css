@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(3, 146, 1);}
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;}
+nav {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    background-color: rgb(254, 252, 250);
+    text-shadow: 1px 3px 6px #989292;}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;}
+.Brand img {
+    width: 44px;
+    padding: 8px;}
+.Brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;}
+nav ul li {
+    padding: 0 12px;
+    font-size: 20px;
+    transition: 0.4s;}
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;}
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: rgb(242, 239, 239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 90%;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;}
+.bottom {
+    color: white;
+    position: sticky;
+    height: 140px;
+    bottom: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.icon {
+    margin-top: 13px;
+    color: rgb(12, 12, 12);}
+.icon i {
+    cursor: pointer;
+    padding: 15px;
+    color: #000;
+    background: #0de70dbc;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px #04e822a1;
+    transition: all ease 0.4s;}
+.songitem {
+    height: 60px;
+    display: flex;
+    background-color: rgba(20, 20, 20, 0.921);
+    width: 100%;
+    color: rgb(234, 234, 234);
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+    box-shadow: 0 15px 35px #04e822a1;
+    transition: all ease 0.4s;}
+.songitem:hover {
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);}
+.songitem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 24px;}
+.timestamp i {
+    margin: 0 23px;
+    cursor: pointer;}
+.songinfo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 10vw;}
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;}
+.timestamp {
+    margin: 0 23px;}
+.songitemcontainer {
+    margin-top: 54px;}
+footer {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    background-color: rgb(254, 252, 250);
+    text-shadow: 1px 1px 3px #989292;
+    position: unset;}
+footer li {
+    text-align: center;
+    margin: 15px;
+    font-size: 21px;}
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;}
+nav ul li:hover {
+    transform: scale(1.1);
+    z-index: 1;}
+.p {
+    text-align: right;
+    text-size-adjust: 10px;
+}
