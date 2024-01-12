@@ -6,7 +6,7 @@ let gif= document.getElementById('gif');
 let songitems=Array.from(document.getElementsByClassName('songitem'));
 let songs=[
 
-    {songnames: "EASY ONE ME REMIX",filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
+    {songnames: "EASY ON ME REMIX",filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
     {songnames: "ALONE WITH YOU MUSICMIX",filePath:"songs/2.mp3", coverPath:"covers/1.jpg"},
     {songnames: "YOUR LOVE MUSICMIX",filePath:"songs/3.mp3", coverPath:"covers/1.jpg"},
     {songnames: "25 MINUTES_WAYNE DOMINIC RECORDS",filePath:"songs/4.mp3", coverPath:"covers/1.jpg"},
