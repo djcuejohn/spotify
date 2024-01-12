@@ -18,7 +18,7 @@ let songs=[
     {songnames: "HIP HOP RNB Classic 90s 2000s Mix 5",filePath:"songs/10.mp3", coverPath:"covers/1.jpg"},
     {songnames: "HIP HOP RNB Classic 90s 2000s Mix 6",filePath:"songs/11.mp3", coverPath:"covers/1.jpg"},
     {songnames: "Mix Hip Hop RNB Old School 8",filePath:"songs/12.mp3", coverPath:"covers/1.jpg"},
-    {songnames: "SINULOG 2024 REMIX_BisayangDako",filePath:"songs/13.mp3", coverPath:"covers/1.jpg"},
+    {songnames: "SINULOG 2024 REMIX_BisayangDako",filePath:"songs/SINULOG 2024 REMIX - NONSTOP SINULOG 2024 DANCE.mp3", coverPath:"covers/1.jpg"},
 
 
 ];
