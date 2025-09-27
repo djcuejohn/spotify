@@ -88,13 +88,13 @@ nav ul li {
 .timestamp i {
     margin: 0 23px;
     cursor: pointer;}
-.songinfo {
+/*.songinfo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     left: 10vw;}
 .songinfo img {
     opacity: 0;
-    transition: opacity 0.4s ease-in;}
+    transition: opacity 0.4s ease-in;}*/
 .timestamp {
     margin: 0 23px;}
 .songitemcontainer {
@@ -122,4 +122,89 @@ nav ul li:hover {
 .p {
     text-align: right;
     text-size-adjust: 10px;
+}
+
+#stop, #shuffle, #continue {
+    margin-left: 15px;
+    cursor: pointer;
+    color: #080808;
+}
+
+#volume {
+    margin-left: 20px;
+}
+
+.songitemcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+    padding-right: 10px; /* Prevent scrollbar overlap */
+}
+
+/* Optional: Style scrollbar for better UX */
+.songitemcontainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.songitemcontainer::-webkit-scrollbar-thumb {
+    background-color: #1db954;
+    border-radius: 4px;
+}
+
+.songitemcontainer::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .songitem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .icon {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #volume {
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+.current-song-title {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Highlight active song */
+.songitem.active {
+    background-color: #3276f3;
+    color: black;
+    transform: scale(1.02);
+}
+
+/* Animate song title */
+.current-song-title {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
+    100% { opacity: 0.6; transform: scale(1); }
 }
